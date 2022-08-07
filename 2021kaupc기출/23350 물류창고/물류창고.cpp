@@ -43,7 +43,7 @@ int main() {
 			containers.pop();
 		}
 		else {
-			if (storage.empty()) {
+ 			if (storage.empty()) {
 				storage.push(curContainer);
 				resPrice += curContainer.weight;
 				containers.pop(); priorityCounts[curPriority]--;
